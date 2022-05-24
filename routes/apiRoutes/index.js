@@ -1,5 +1,6 @@
 //middleware
 const router = require('express').Router();
+var uniqid = require('uniqid'); 
 const { filterByQuery } = require('../../lib/notes');
 const notes = require('../../db/db.json');
 // Require file system
@@ -10,7 +11,8 @@ const path = require("path");
 router.post("/notes", (req, res) => {
   var newNote = {
     title: req.body.title,
-    text: req.body.text
+    text: req.body.text,
+    id: uniqid()
   }
 
   notes.push(newNote);

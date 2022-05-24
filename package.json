@@ -19,6 +19,7 @@
   "homepage": "https://github.com/brian-000/notetaker#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "uniqid": "^5.4.0",
     "uuid": "^8.3.2"
   },
   "keywords": []
