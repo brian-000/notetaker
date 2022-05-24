@@ -1,7 +1,7 @@
 # NoteTaker
 <h2>Link To Website</h2>
 
-<a href= "https://ancient-fjord-05896.herokuapp.com/notes">Heroku Site</a>
+<a href= "https://ancient-fjord-05896.herokuapp.com/">Heroku Site</a>
 
 <h2>Description</h2>
 
